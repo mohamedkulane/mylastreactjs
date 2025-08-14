@@ -14,7 +14,7 @@ function Header(){
         }
     }
     return <>
-    <div id="Header" className="flex items-center justify-between py-3 px-10 bg-[#222831] text-[#DFD0B8] fixed top-0 left-0 w-full">
+    <div id="Header" className="flex items-center justify-between py-3 lg:px-10 px-6 bg-[#222831] text-[#DFD0B8] fixed top-0 left-0 w-full">
         <h1 className="text-4xl font-bold">NextMind.</h1>
             <ul className="lg:flex md:flex hidden gap-12 items-center text-xl font-semibold cursor-pointer ">
                <Link to="/"> <li className="hover:text-[hsl(34,47%,52%)] text-[#948979] hover:scale-110 duration-300">Home</li></Link>
