@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  font-family: 'Nunito';
+}
+#Header li {
+  position: relative;
+}
+
+@media (min-width: 640px) { /* tailwind sm: ka weyn */
+  #Header li::before {
+    content: "";
+    position: absolute;
+    bottom: 0.5px;
+    left: 0;
+    width: 0px;
+    background-color: #DFD0B8;
+    height: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #Header li:hover::before {
+    width: 100%;
+  }
+}
+
+#link {
+  position: relative;
+}
+
+#link:hover #box {
+  position: absolute;
+  top: 30px;
+  display: block;
+}
