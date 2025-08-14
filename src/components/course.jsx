@@ -7,7 +7,7 @@ function Course({lessons}){
         dispatch(addCart(lessons))
     }
     return <>
-    <div className="w-[370px] h-[30rem] p-2  shadow-lg bg-white  shadow-gray-200 rounded-md  ">
+    <div id="all" className="lg:w-[370px] overflow-hidden w-[380px] h-[30rem] p-2  shadow-lg bg-white  shadow-gray-200 rounded-md  ">
         <img className="w-[350px] h-[200px]" src={lessons.image} alt="" />
         <div className="flex gap-12 text-2xl mt-2">
             <div className="text-yellow-500">
