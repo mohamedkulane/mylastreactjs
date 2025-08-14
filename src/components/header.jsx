@@ -32,7 +32,7 @@ function Header(){
             </ul>
         <div className="relative flex gap-6 items-center ">
        <Link to="/cartpage"> <i className="fa-solid fa-shopping-cart text-3xl hover:text-[hsl(34,47%,52%)] "> <span className="text-2xl font-semibold absolute  lg:right-[140px] right-[26px] lg:-top-3 -top-4">({items.length})</span></i></Link>
-       <i onClick={handleIsopen} className="fa-solid fa-bars text-4xl -mr-4"></i>
+       <i onClick={handleIsopen} className="fa-solid fa-bars text-4xl -mr-4 lg:hidden"></i>
         <button className="bg-[#393E46] px-10 py-2 ml-3 lg:flex md:flex hidden rounded-sm text-[#DFD0B8] text-xl font-semibold hover:bg-[hsl(218,17%,16%)] hover:scale-105 duration-300">Login</button>
         
         </div>
