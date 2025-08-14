@@ -8,7 +8,7 @@ import img7 from "../Assets/theses.png"
 import img8 from "../Assets/ui&ux.png"
 import img9 from "../Assets/study.png"
 import img10 from "../Assets/planBusines.png"
-import img11 from "../Assets/income.png"
+import img11 from "../Assets/Income.png"
 import img12 from "../Assets/gym.png"
 import img13 from "../Assets/Digital.png"
 import img14 from "../Assets/trading.png"
@@ -55,8 +55,7 @@ const Data=[
         title:"Learning social media Marketing ",
         category:"skill",
         image:img4,
-        category:"marketing",
-        price:"90.9",
+        price:"12",
     },
     {
         id: 6,
